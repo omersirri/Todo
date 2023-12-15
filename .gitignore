@@ -1,43 +1,60 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
+# Flutter/Dart specific
+**/build/
 **/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
+**/ios/Pods/
+**/macos/Flutter/.last_build_id
+**/macos/Flutter/FlutterPluginRegistrant.framework/
 
-# Symbolication related
-app.*.symbols
+# IntelliJ
+.idea/
+*.iml
 
-# Obfuscation related
-app.*.map.json
+# VS Code
+.vscode/
+*.code-workspace
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# Android
+**/android/app/build/
+**/android/build/
+**/android/gradle/
+**/android/gradlew
+**/android/local.properties
+
+# iOS
+**/ios/Pods/
+**/ios/Runner/.ios/
+**/ios/Runner/GeneratedPluginRegistrant.h
+**/ios/Runner/GeneratedPluginRegistrant.m
+**/ios/Runner/*.mode1v3
+**/ios/Runner/*.mode2v3
+**/ios/Runner/*.moved-aside
+**/ios/Runner/Flutter/Flutter.framework/
+**/ios/Runner/Flutter/Generated.xcconfig
+**/ios/Runner/Flutter/flutter_export_environment.sh
+**/ios/Runner/Flutter/flutter_preamble.sh
+**/ios/Runner/Flutter/flutter_profile_mode.plist
+**/ios/Runner/Flutter/flutter_runner.xcconfig
+**/ios/Runner/Flutter/flutter_xcconfig_exclude_other.xcconfig
+**/ios/*.pbxuser
+**/ios/*.mode1v3
+**/ios/*.mode2v3
+**/ios/xcuserdata
+**/ios/profile.mode
+
+# Xcode
+**/*.xcworkspace/
+**/*.xcuserdatad/
+
+# Flutter build
+**/flutter_project/.dart_tool/
+**/flutter_project/.flutter-plugins
+**/flutter_project/.flutter-plugins-dependencies
+**/flutter_project/.dart_tools/
+**/flutter_project/build/
+**/flutter_project/ios/Flutter/Flutter.framework/
+**/flutter_project/ios/Flutter/Flutter.podspec
+**/flutter_project/ios/Flutter/flutter_export_environment.sh
+**/flutter_project/web/dev_compiler/
+**/flutter_project/web/release/
+**/flutter_project/web/packages/flutter_tools.stamp
+**/flutter_project/web/packages/flutter_tools.trace
